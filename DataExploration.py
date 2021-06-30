@@ -6,8 +6,7 @@ import seaborn as sns
 import numpy as np
 
 #Import Data
-
-df = pd.read_csv('./data/train.csv', parse_dates=True, index_col=0)
+df = pd.read_csv('TRAINDATA', parse_dates=True, index_col=0)
 
 #Info Dataset
 # datetime : hourly date + timestamp  

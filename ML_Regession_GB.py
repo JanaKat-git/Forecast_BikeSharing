@@ -9,10 +9,8 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.model_selection import cross_validate
 from sklearn.ensemble import GradientBoostingRegressor
 
-
-
 #Import Data
-df = pd.read_csv('./data/train.csv', parse_dates=True, index_col=0)
+df = pd.read_csv('TRAINDATA', parse_dates=True, index_col=0)
 
 # Split the Data
 df['h'] = df.index.hour
